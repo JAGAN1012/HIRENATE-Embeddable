@@ -40,6 +40,7 @@ public class App {
             //session.save(obj);// hibernate which is convert the java code to sql.
            
            session.save(obj);
+              obj=(Player)session.get(Player.class,7);// used to get from data base
             session.getTransaction().commit();
             System.out.println(obj);
         } catch (Exception e) {
