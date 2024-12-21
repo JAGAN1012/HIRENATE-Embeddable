@@ -53,7 +53,8 @@ public class Player{
 
 	@Override
 	public String toString() {
-		return "Player [aid=" + aid + ", Name=" + Name + ", role=" + role + "]";
+		return "Player [aid=" + aid + ", Name=" + Name + ", role=" + role + ", d=" + d + "]";
 	}
-    
+
+	
 }
